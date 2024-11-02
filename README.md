@@ -62,11 +62,6 @@ DAILY_EMAIL_LIMIT=100
 DELAY_BETWEEN_EMAILS=5000
 ```
 
-4. Create required directories:
-```bash
-mkdir -p data/campaigns data/enriched-lists
-```
-
 ## Usage Guide
 
 ### 1. Prepare Your CSV File
