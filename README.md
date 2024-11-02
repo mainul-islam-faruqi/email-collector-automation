@@ -1,0 +1,1 @@
+# email-collector-automation
