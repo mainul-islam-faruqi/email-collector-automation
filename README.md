@@ -43,7 +43,7 @@ A comprehensive automation system that handles both email collection and outreac
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/mainul-islam-faruqi/email-collector-automation-system.git
 cd email-collector-automation-system
 ```
 
