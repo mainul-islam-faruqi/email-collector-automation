@@ -1,0 +1,17 @@
+{
+  "name": "email-automation",
+  "version": "1.0.0",
+  "description": "Email automation for business outreach",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "cd python && pip3 install -r requirements.txt",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.5",
+    "fs-extra": "^11.1.1"
+  }
+}

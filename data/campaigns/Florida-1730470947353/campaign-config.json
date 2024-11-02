@@ -1,0 +1,36 @@
+{
+  "id": "Florida-1730470947353",
+  "name": "Florida",
+  "status": "initialized",
+  "createdAt": "2024-11-01T14:22:27.353Z",
+  "originalCsvPath": "data/new-businesses.csv",
+  "emailSequence": [
+    {
+      "type": "initial",
+      "template": "REVIEW_OFFER",
+      "delay": 0
+    },
+    {
+      "type": "followup1",
+      "template": "FIRST_FOLLOWUP",
+      "delay": 2
+    },
+    {
+      "type": "followup2",
+      "template": "SECOND_FOLLOWUP",
+      "delay": 4
+    },
+    {
+      "type": "followup3",
+      "template": "FINAL_FOLLOWUP",
+      "delay": 7
+    }
+  ],
+  "currentSequenceIndex": 0,
+  "lastRunDate": null,
+  "stats": {
+    "totalBusinesses": 0,
+    "emailsSent": 0,
+    "completedSequences": 0
+  }
+}

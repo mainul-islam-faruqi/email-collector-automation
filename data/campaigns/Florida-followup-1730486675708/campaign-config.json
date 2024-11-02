@@ -1,0 +1,36 @@
+{
+  "id": "Florida-followup-1730486675708",
+  "name": "Florida-followup",
+  "status": "initialized",
+  "createdAt": "2024-11-01T18:44:35.708Z",
+  "originalCsvPath": "/Users/mif/Downloads/project_crowdfunding-master/email-automation/data/enriched-lists/Florida-1730470947353-enriched.json",
+  "emailSequence": [
+    {
+      "type": "initial",
+      "template": "REVIEW_OFFER",
+      "delay": 0
+    },
+    {
+      "type": "followup1",
+      "template": "FIRST_FOLLOWUP",
+      "delay": 2
+    },
+    {
+      "type": "followup2",
+      "template": "SECOND_FOLLOWUP",
+      "delay": 4
+    },
+    {
+      "type": "followup3",
+      "template": "FINAL_FOLLOWUP",
+      "delay": 7
+    }
+  ],
+  "currentSequenceIndex": 0,
+  "lastRunDate": null,
+  "stats": {
+    "totalBusinesses": 0,
+    "emailsSent": 0,
+    "completedSequences": 0
+  }
+}
